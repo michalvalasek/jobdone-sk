@@ -20,8 +20,18 @@
   </style>
 </head>
 <body>
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-39070022-1']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
   
-  <nav class="navbar"></nav>
+  <br />
 
   <div class="container">
     <header class="hero-unit">
@@ -46,7 +56,7 @@
         <p>Keďže klientom je americká firma, nutnosťou je schopnosť písomne <b>komunikovať v angličtine</b>, porozumieť hovorenej angličtine a hovoriť ňou v miere potrebnej na komunikáciu o úlohách na projekte.</p>
         <p>Ponúkame <b>možnosť práce z domu</b> (alebo, v prípade záujmu, z našej kancelárie v BA), pracovný čas podľa vlastnej voľby (s výnimkou denného mítingu cez skype), sebarealizáciu (nehľadáme codingmonkey, ale rovnocenného spoluhráča s vlastným úsudkom, iniciatívou a nápadmi) a v neposlednom rade nabúšený firemný MacBook Pro.</p>
         <br />
-        <p class="text-center"><a href="mailto:jobs@jobdone.sk" target="_blank" class="btn btn-large btn-success">Ozvite sa nám!</a></p>
+        <p class="text-center"><a href="mailto:jobs@jobdone.sk" target="_blank" class="btn btn-large btn-success" onclick="_gaq.push(['_trackEvent', 'Buttons', 'Click', 'Ozvite sa nám']);">Ozvite sa nám!</a></p>
       </div>
 
       <div class="span2">
@@ -69,18 +79,7 @@
     </div>
   </div>
 
-  <script type="text/javascript">
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-39070022-1']);
-    _gaq.push(['_trackPageview']);
-    (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-  </script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-  <script src="https://netdna.bootstrapcdn.com/twitter-bootstrap/2.0.4/js/bootstrap.min.js"></script>
   <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
